@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <clocale>
 
 int main()
 {
+	setlocale(LC_ALL, "rus");
 	char letter = 'A';
 	double decimal = 5.489;
 	int number = 100;
